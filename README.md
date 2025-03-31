@@ -22,7 +22,7 @@
    - If the element is less than largest but greater than secondLargest, update secondLargest.
 4. Return secondLargest after iterating through the entire array.
 
-## Individual Assignment two
+### Individual Assignment two
 
 # Pointer-Sorting-Algorithm-using-Insertion-Sort-
 ## Student Information
