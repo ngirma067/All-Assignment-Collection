@@ -3,7 +3,8 @@
 - **Name**: Natnael Girma
 - **Student ID**: 0425/23
 - **Course**: DSA
-## Individual Assignment One
+
+# Individual Assignment One
 
 ## Smaller-Number-In-Array
 ## Algorithm
