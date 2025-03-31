@@ -6,7 +6,7 @@
 
 # Individual Assignment One
 
-## Smaller-Number-In-Array
+# Smaller-Number-In-Array
 ## Algorithm
 1. Initialize the smallest number with the first element of the array.
 2. Iterate through the array starting from the second element.
