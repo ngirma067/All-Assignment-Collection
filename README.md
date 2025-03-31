@@ -6,7 +6,7 @@
 
 # Individual Assignment One
 
-# Smaller-Number-In-Array
+## Smaller-Number-In-Array
 ## Algorithm
 1. Initialize the smallest number with the first element of the array.
 2. Iterate through the array starting from the second element.
@@ -14,7 +14,7 @@
 4. Update the smallest number if a smaller element is found.
 5. Return the smallest number after checking all elements.
 
-# The-second-largest-number
+## The-second-largest-number
 ## Algorithm
 1. Initialize two variables, largest and secondLargest, with the smallest possible integer value (e.g., INT_MIN).
 2. Iterate through the array.
@@ -55,7 +55,7 @@ The pr function is used to print the array before and after sorting.
 - The use of pointers here (*ptr = &arr[i]) demonstrates how pointers can be used to access and modify elements in the array.
 - This implementation works well for small to moderately sized datasets but is inefficient for large datasets due to its O(n²) time complexity.
 
-# pointer-sorting-algorithm-using-bubble
+## pointer-sorting-algorithm-using-bubble
 # Complexity Analysis:
 ## Time Complexity:
 - **Best Case (Already Sorted): O(n)**: — In this case, the algorithm only needs to traverse the array once without making any swaps. This can be achieved with an optimized version that stops if no swaps occur in a pass, but the provided implementation does not have this -optimization, so it would still run in O(n^2).
