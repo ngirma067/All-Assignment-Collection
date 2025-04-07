@@ -64,7 +64,7 @@ In the C++ code above:
 - **Best case**: If the array is already sorted or nearly sorted, the algorithm might complete in less time, but it is still O(n²) in the absence of early stopping optimizations.
 - **Average and worst cases**: The algorithm performs a quadratic number of comparisons and swaps, leading to a time complexity of O(n²).
 - **Memory Usage**: The space complexity is O(1) as it sorts in place.
-## Individual Assignment Three
+# Individual Assignment Three
 ## Complexity Analysis
 ### Time Complexity:
 - Both iterative and recursive binary search have a time complexity of O(log(n)), where n is the number of elements in the array. This is because the search space is halved - with each iteration or recursive call.
