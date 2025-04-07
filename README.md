@@ -75,3 +75,28 @@ In the C++ code above:
 The iterative approach is typically more efficient in terms of space and may be faster due to the absence of function call overhead.
 The recursive approach can be more intuitive and cleaner for problems that naturally fit recursion.
 Both approaches yield the same time complexity for binary search, but differ in space complexity, with iterative being more favorable for larger datasets.
+# Individual Assignment Four
+## Ternary Search
+# How It Works:
+- **Ternary search**: is a divide-and-conquer algorithm that searches for a specific value in a sorted array. It divides the array into three parts instead of two, as in binary search.
+
+- **Divide**: Calculate two midpoints, mid1 and mid2, dividing the array into three segments.
+- **Compare**: Compare the target value with the values at mid1 and mid2.
+- If the target is equal to the first midpoint, return the index.
+- If the target is equal to the second midpoint, return the index.
+- If the target is less than the value at mid1, search the left segment.
+- If the target is greater than the value at mid2, search the right segment.
+- If the target is between the two midpoints, search the middle segment.
+## Complexity Analysis:
+
+- **Time Complexity**: O(log3(n)), which is approximately O(log(n)) since log3(n) = log(n) / log(3).
+- **Space Complexity**: O(1) for iterative implementation; O(log(n)) for recursive implementation due to call stack.
+## Interpolation Search
+# How It Works:
+- **Interpolation search**: is an improvement over binary search for uniformly distributed sorted datasets. Instead of dividing the array into halves, it tries to estimate the position of the target.
+ 
+-**Compare**: If the target matches the value at pos, return the index. If the target is less than the value at pos, search the left subarray; if greater, search the right.
+Complexity Analysis:
+
+Time Complexity: O(log(log(n))) for uniformly distributed data; O(n) in the worst case when the data is not uniformly distributed.
+Space Complexity: O(1).
